@@ -1,0 +1,18 @@
+[
+  {
+    "nombre": "Daniel",
+    "apellido": "Fuentes",
+    "email": "cedavilu@gmail.com",
+    "password": "$2a$10$CQvuD3pEqDa0EwgsUR6q6.GP9xeJflT1BPuzXNtzfFF9CQaXWSMdq",
+    "avatar": "foto-1614819222033.png",
+    "role": 9
+  },
+  {
+    "nombre": "Indira",
+    "apellido": "Giuresca",
+    "email": "indira@gmail.com",
+    "password": "$2a$10$d/hbpQZiq7KO99SeG0r9FORad70NzVuz.azgg2gJrgxd/I4i7YRba",
+    "avatar": "foto-1656113230819.jpg",
+    "role": 1
+  }
+]
