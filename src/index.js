@@ -22,6 +22,9 @@ app.use(express.static(path.resolve(__dirname, '..', 'public')));
 
 //Debemos indicar cual es el motor de plantillas que estamos usando EJS
 app.set('view engine','ejs');
+//Configuro el puerto para poder subir el proyecto a la nube
+app.set('puerto', process.env.PORT || 3001);
+
 //Tags que usamos en EJS
 /* 
 Incluir un partials
@@ -89,4 +92,4 @@ app.use(userRoutes);
 app.use(adminRoutes);
 //Levantar servidor
 //app.listen(3001, 'localhost', ()=> console.log('Servidor corriendo en el puerto 3001'));
-app.listen(process.env.PORT || 3000, function() { console.log(`Servidor corriendo en el puerto 3001`);
+app.listen(app.get('puerto') , () =>  console.log(`Servidor corriendo en el puerto ${app.get('puerto')}`));
