@@ -88,4 +88,5 @@ app.use(productoRoutes);
 app.use(userRoutes);
 app.use(adminRoutes);
 //Levantar servidor
-app.listen(3001, 'localhost', ()=> console.log('Servidor corriendo en el puerto 3001'));
+//app.listen(3001, 'localhost', ()=> console.log('Servidor corriendo en el puerto 3001'));
+app.listen(process.env.PORT || 3000, function() { console.log(`Servidor corriendo en el puerto 3001`);
