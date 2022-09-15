@@ -2,9 +2,9 @@
   "name": "ejsproyectojson",
   "version": "1.0.0",
   "description": "Proyecto de trabajo con ejs - express-validator - session - cookies - hash",
-  "main": "src/index.js",
+  "main": "node src/index.js",
   "scripts": {
-    "start": "nodemon src/index.js"
+    "test": "nodemon src/index.js"
   },
   "keywords": [],
   "author": "Angel Daniel Fuentes",
